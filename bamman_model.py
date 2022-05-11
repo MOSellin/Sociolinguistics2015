@@ -287,7 +287,6 @@ def neural_model(neural_dict,sentences,window_size,gt):
 					temp_arr=np.zeros((10000,(2+2*window_size)))
 					temp_cout=0
 	temp_arr_two=np.vstack((temp_arr_two,temp_arr[:temp_cout]))
-	#EDIT THIS SHIT
 	outputte_vickman=temp_arr_two[1:]
 	outputte_vickman=np.array(outputte_vickman, dtype=np.int32)
 	return outputte_vickman	
