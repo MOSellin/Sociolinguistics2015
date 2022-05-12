@@ -67,8 +67,7 @@ print(train_data.shape)
 np.random.shuffle(train_data)
 
 #Delete all none-used files before calculation
-outputtevickman_male=None 
-outputtevickman_female=None 
+
 f_proc=None
 m_proc=None
 
